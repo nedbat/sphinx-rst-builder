@@ -16,7 +16,8 @@ import logging
 from docutils import nodes, writers
 
 from sphinx import addnodes
-from sphinx.locale import admonitionlabels, versionlabels, _
+from sphinx.locale import admonitionlabels, _
+from sphinx.domains.changeset import versionlabels
 from sphinx.writers.text import TextTranslator, MAXWIDTH, STDINDENT
 
 
